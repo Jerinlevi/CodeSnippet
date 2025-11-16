@@ -1,0 +1,142 @@
+/* Styles at the bottom of the file */
+.snippets-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+width:100vw;}
+
+
+  .logut-div{
+    width:100%;
+    display:flex;
+ width: 100vw;
+    justify-content:flex-end;
+  }
+  .snippets-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .logout-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+  }
+  
+  
+  .logout-button:hover {
+    background-color: #e60000;
+  }
+  
+  .message-container {
+    margin: 10px 0;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .snippets-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .snippet-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .snippet-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .snippet-language {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .snippet-details {
+    margin-top: 10px;
+  }
+  
+  .snippet-tags {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .snippet-code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-snippet-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .add-snippet-button:hover {
+    background-color: #218838;
+  }
+
+/* Added responsive styles */
+@media (max-width: 768px) {
+  .snippets-container {
+    padding: 10px;
+  }
+
+  .snippets-title {
+    font-size: 20px;
+  }
+
+  .logout-button, .edit-button, .add-snippet-button {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .snippet-item {
+    padding: 10px;
+  }
+
+  .snippet-title {
+    font-size: 16px;
+  }
+
+  .snippet-code {
+    font-size: 14px;
+  }
+}
